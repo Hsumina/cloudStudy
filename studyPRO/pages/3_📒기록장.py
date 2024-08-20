@@ -6,7 +6,7 @@ import datetime
 st.set_page_config(page_title="기록장", page_icon="📒")
 
 # 앱 제목
-st.title("기록장")
+st.title("📒기록장")
 
 # 사용자 입력 폼
 with st.form(key='entry_form'):

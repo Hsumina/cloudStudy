@@ -5,6 +5,11 @@ st.set_page_config(
     page_icon="(๑•̀∀•́ฅ ✧",
 )
 
+st.title("학습일지")
+st.write("나의 성장 여정을 기록하고, :blue[더 나은 내일을 설계하세요.]" )
+image="image/star.jpg"
+st.image(image, width=500)
+
 st.sidebar.markdown(
     
      """
@@ -23,6 +28,7 @@ st.sidebar.markdown(
     .sidebar-content {
         padding-top: 120px; /* 이미지 아래에 여백 추가 */
     }
+
     </style>
     <img src="https://i.pinimg.com/originals/85/81/46/858146972b351699e67a5eee97f6241b.jpg" class="profile-pic" alt="Profile Picture">
     """,
